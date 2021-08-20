@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  /* width:80%; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  /* width:80%; */
+  /* margin: 0; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading {
+  background:#2FC8B8;
+  position: relative;
+  height: 27em;
+  width:100%;
+  top:-2em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchCountry {
+  background-color: #fff;
+  width:27.8em;
+  position: absolute;
+  top:14em;
+  left:25em;
+  border-radius:4px;
+}
+.cumulative {
+  background: #1E776E;
+  width:55em;
+  height: 9em;
+  position: absolute;
+  left:14em;
+  top:18em;
+}
+.cases {
+  background: #f4f4f4;
+  box-shadow: 10px 10px #fff;
+  width:55em;
+  height: 9em;
+  position: relative;
+  left:14em;
+  top:-2em;
+  border-radius: 0px 0px 8px 8px;
+  border-color:#fff;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding:0 4em 0 4em;
 }
-
-.App-link {
-  color: #61dafb;
+.continent {
+  box-sizing: border-box;
 }
+.continentContainer {
+  display: flex;
+  justify-content:space-between;
+  margin-left: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.continentBox{
+  display:flex;
+  justify-content: space-between;
+ box-sizing: border-box;
+}
+.innerContinentBox {
+  background:#f4f4f4;
+  width:20em;
+  border-radius: 5px 0px 0px 5px;
+  text-align: center;
+
+}
+.innerContinentBox > h1 {
+  color:#2FC8B8;
+}
+.innerContinentBox >p {
+  color:#ccc;
+}
+.innerContinentBoxGreen {
+  background-color:#2FC8B8;
+  border-radius: 0px 5px 5px 0px;
+    width:20em;
+    text-align: center;
+
+}
+.userProfile {
+  display: flex;
+  margin-top: 8em;
+
+}
+.personalInfo {
+  height: 25em;
+  width: 80%;
+  background: #ddd;
+}
+.info {
+  padding-top: 3em;
+}
+.contactUs {
+  background: #1E776E;
+  text-align: center;
+  padding: 3em;
+  color:#fff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #ccc;
+  padding:1.5em 3em 0 3em;
+  height:6em;
+
 }
